@@ -4,3 +4,83 @@ body {
     padding: 0;
     background-color: #f8f8f8;
 }
+
+header{
+    background-color: darkgray;
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.playlist-cards{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: center;
+    
+    
+}
+
+.playlist{
+    border: 0.1px #f8f8f8 solid;
+    border-radius: 3%;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    
+}
+
+.playlist:hover{
+    background-color: #555;
+}
+
+.playlists{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: left;
+    margin:40px
+
+}
+
+.play{
+    padding: 5px;
+    margin: 5px; 
+}
+
+.playlistss{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px;
+    /* justify-content: auto; */
+    border: 1px black solid;
+    border-radius: 2%;
+    padding: 5px;
+    margin: 5px;
+    margin:40px
+
+}
+
+.plays{
+    padding: 5px;
+    margin:5px;
+}
+
+.plays1{
+    text-align:right;
+    text-align:end;
+    padding:5px;
+    margin:5px;
+} 
