@@ -27,7 +27,7 @@ function renderFeaturedPlaylist(){
         const li = document.createElement("li");
         li.innerHTML =
         ` <strong>${song.title}</strong> <br>
-        ${song.artist} * ${song.album} * ${song.duration} `;
+        ${song.artist} <br> ${song.album} <br> ${song.duration} `;
 
         ul.appendChild(li);
     });
