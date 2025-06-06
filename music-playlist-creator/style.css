@@ -36,7 +36,7 @@ footer{
     border-radius: 3%;
     padding: 5px;
     margin: 5px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -60,11 +60,9 @@ footer{
 }
 
 .playlistss{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display:block;
     gap:5px;
-    /* justify-content: auto; */
+    justify-content: auto; 
     border: 1px black solid;
     border-radius: 2%;
     padding: 5px;
@@ -84,3 +82,159 @@ footer{
     padding:5px;
     margin:5px;
 } 
+
+/* Modal overlay - covers the entire screen */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000; /* Ensure it's above everything */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Modal content box - centered in the overlay */
+.modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+/*.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9998;
+}*/
+
+.hidden{
+    display: none;
+}
+
+.song-item {
+    display: flex;
+    gap: 20px;
+    border: #f8f8f8 solid 2px;
+
+}
+
+.cover_div {
+    max-height: 70px;
+    max-width: 70px;
+    border: #555 solid 2px;
+    padding: 10px;
+}
+.cover_art {
+    height: 70px;
+    width: auto;
+}
+
+.song_artist {
+    margin: 0px;
+}
+.song_album {
+    margin: 0px;
+}
+.song_duration {
+    margin: 0px;
+}
+
+.like-button {
+    margin-top: 8px;
+    padding:6px 12px;
+    font-size: 14px;
+    background-color: #eee;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.like-button:hover{
+    background-color: #ffdddd
+}
+
+.liked{
+    background-color:pink;
+    color:red
+}
+
+#shuffle-btn{
+    margin: 20px;
+    margin-left: 45px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 6px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+
+#shuffle-btn:hover{
+    background-color: #45a049;
+}
+
+.featured-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px dashed #555;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    max-width: 700px;
+}
+
+.featured-left{
+    flex:1;
+    text-align: center;
+}
+
+.featured-left img{
+    width:120px;
+    height:120px;
+    object-fit: cover;
+    border-radius:6px;
+    margin-bottom:10px
+}
+.featured-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.featured-right{
+    flex: 2;
+}
+
+.featured-right ul{
+    list-style: none;
+    padding: 0;
+}
+
+.featured-right li{
+    margin-bottom: 8px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
