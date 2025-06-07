@@ -3,7 +3,7 @@ const playlists = [
       "playlistID": 0,
       "playlist_name": "Gospel Groove",
       "playlist_creator": "DJ Stecy",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_art": "/unnamed.png",
       "likeCount": 0,
       "songs": [
         {
@@ -11,7 +11,7 @@ const playlists = [
           "title": "Game Changer",
           "artist": "Ada Ehi",
           "album": "Born of God",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "4:18"
         },
         {
@@ -19,7 +19,7 @@ const playlists = [
           "title": "Open Doors",
           "artist": "Ada Ehi",
           "album": "Born of God",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "3:55"
         },
         {
@@ -27,7 +27,7 @@ const playlists = [
           "title": "Congratulations'",
           "artist": "Ada Ehi",
           "album": "Born of God",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "4:30"
         },
         {
@@ -35,7 +35,7 @@ const playlists = [
           "title": "Another Miracle",
           "artist": "Ada Ehi",
           "album": "Born of God",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "5:25"
         },
         {
@@ -43,7 +43,7 @@ const playlists = [
           "title": "Gallant",
           "artist": "Ada Ehi",
           "album": "Born of God",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "3:04"
         }
       ]
@@ -52,15 +52,15 @@ const playlists = [
       "playlistID": 1,
       "playlist_name": "Brandon Lake Hits",
       "playlist_creator": "DJ Stecy",
-      "playlist_art": "assets/img/playlist.png",
-      "likeCount": 0,
+      "playlist_art": "/images.jpeg",
+      "likeCount": 34,
       "songs": [
         {
           "songID": 5,
           "title": "Gratitude",
           "artist": "Brandon Lake",
           "album": "House of Miracles",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/images.jpeg",
           "duration": "2:53"
         },
         {
@@ -68,7 +68,7 @@ const playlists = [
           "title": "Hard Fought Hallelujah",
           "artist": "Brandon Lake",
           "album": "King of Hearts",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/images.jpeg",
           "duration": "3:31"
         },
         {
@@ -76,7 +76,7 @@ const playlists = [
           "title": "That's Who I Praise",
           "artist": "Brandon Lake",
           "album": "King of Hearts",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/images.jpeg",
           "duration": "3:28"
         },
         {
@@ -84,7 +84,7 @@ const playlists = [
           "title": "House of Miracles",
           "artist": "Brandon Lake",
           "album": "House of Miracles",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/images.jpeg",
           "duration": "3:42"
         },
         {
@@ -92,7 +92,7 @@ const playlists = [
           "title": "Daddy's DNA",
           "artist": "Brandon Lake",
           "album": "King of Hearts",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/images.jpeg",
           "duration": "3:34"
         }
       ]
@@ -101,15 +101,15 @@ const playlists = [
       "playlistID": 2,
       "playlist_name": "High Vocals",
       "playlist_creator": "DJ Stecy",
-      "playlist_art": "assets/img/playlist.png",
-      "likeCount": 0,
+      "playlist_art": "/unnamed.png",
+      "likeCount": 10,
       "songs": [
         {
           "songID": 10,
           "title": "Goodness of God",
           "artist": "Cece Winans",
           "album": "Believe For It",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "4:05"
         },
         {
@@ -117,7 +117,7 @@ const playlists = [
           "title": "Holy Forever",
           "artist": "Cece Winans",
           "album": "More Than This",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "5:12"
         },
         {
@@ -125,7 +125,7 @@ const playlists = [
           "title": "Worthy Of It All",
           "artist": "Cece Winans",
           "album": "Believe For It",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "5:26"
         },
         {
@@ -133,7 +133,7 @@ const playlists = [
           "title": "More Than This",
           "artist": "Cece Winans",
           "album": "More Than This",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "4:30"
         },
         {
@@ -141,7 +141,7 @@ const playlists = [
           "title": "Purified",
           "artist": "Cece Winans",
           "album": "Purified",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/unnamed.png",
           "duration": "3:56"
         }
       ]
@@ -150,15 +150,15 @@ const playlists = [
       "playlistID": 3,
       "playlist_name": "Let's Dance",
       "playlist_creator": "DJ Stecy",
-      "playlist_art": "assets/img/playlist.png",
-      "likeCount": 0,
+      "playlist_art": "/image_7cb8e852-0742-48e0-bafc-fcd71c5aada1.jpeg",
+      "likeCount": 20,
       "songs": [
         {
           "songID": 15,
           "title": "Do It Again",
           "artist": "Elevation Worship",
           "album": "Here As In Heaven",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/image_7cb8e852-0742-48e0-bafc-fcd71c5aada1.jpeg",
           "duration": "4:26"
         },
         {
@@ -166,7 +166,7 @@ const playlists = [
           "title": "Trust In God",
           "artist": "Elevation Worship",
           "album": "Can You Imagine?",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/image_7cb8e852-0742-48e0-bafc-fcd71c5aada1.jpeg",
           "duration": "4:30"
         },
         {
@@ -174,7 +174,7 @@ const playlists = [
           "title": "Same God",
           "artist": "Elevation Worship",
           "album": "LION",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/image_7cb8e852-0742-48e0-bafc-fcd71c5aada1.jpeg",
           "duration": "3:31"
         },
         {
@@ -182,7 +182,7 @@ const playlists = [
           "title": "Jireh",
           "artist": "Elevation Worship",
           "album": "Old Church Basement",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/image_7cb8e852-0742-48e0-bafc-fcd71c5aada1.jpeg",
           "duration": "2:53"
         },
         {
@@ -190,7 +190,7 @@ const playlists = [
           "title": "Praise",
           "artist": "Elevation Worship",
           "album": "Can You Imagine?",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/image_7cb8e852-0742-48e0-bafc-fcd71c5aada1.jpeg",
           "duration": "2:33"
         }
       ]
@@ -199,15 +199,15 @@ const playlists = [
       "playlistID": 4,
       "playlist_name": "High Praise",
       "playlist_creator": "DJ Stecy",
-      "playlist_art": "assets/img/playlist.png",
-      "likeCount": 0,
+      "playlist_art": "/LttdAdqv_200x200.jpg",
+      "likeCount": 30,
       "songs": [
         {
           "songID": 20,
           "title": "Good Day",
           "artist": "Forrest Frank",
           "album": "Child of God",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/LttdAdqv_200x200.jpg",
           "duration": "3:56"
         },
         {
@@ -215,7 +215,7 @@ const playlists = [
           "title": "Your Way's Better",
           "artist": "Forrest Frank",
           "album": "Child of God",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/LttdAdqv_200x200.jpg",
           "duration": "4:07"
         },
         {
@@ -223,7 +223,7 @@ const playlists = [
           "title": "Up!",
           "artist": "Forrest Frank",
           "album": "Child of God",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/LttdAdqv_200x200.jpg",
           "duration": "3:41"
         },
         {
@@ -231,7 +231,7 @@ const playlists = [
           "title": "God is Good",
           "artist": "Forrest Frank",
           "album": "God is Good",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/LttdAdqv_200x200.jpg",
           "duration": "3:25"
         },
         {
@@ -239,7 +239,7 @@ const playlists = [
           "title": "Nothing Else",
           "artist": "Forrest Frank",
           "album": "Child of God",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/LttdAdqv_200x200.jpg",
           "duration": "3:57"
         }
       ]
@@ -248,15 +248,15 @@ const playlists = [
       "playlistID": 5,
       "playlist_name": "My Favourites",
       "playlist_creator": "DJ Stecy",
-      "playlist_art": "assets/img/playlist.png",
-      "likeCount": 0,
+      "playlist_art": "/post_church_chill_playlist.webp",
+      "likeCount": 5,
       "songs": [
         {
           "songID": 25,
           "title": "RATTLE!",
           "artist": "Elevation Worship",
           "album": "Grave Into Gardens",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/post_church_chill_playlist.webp",
           "duration": "8:41"
         },
         {
@@ -264,7 +264,7 @@ const playlists = [
           "title": "Grave into Gardens",
           "artist": "Elevation Worship",
           "album": "Grave Into Gardens",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/post_church_chill_playlist.webp",
           "duration": "8:57"
         },
         {
@@ -272,7 +272,7 @@ const playlists = [
           "title": "Wind Meets Fire",
           "artist": "Elevation Worship",
           "album": "Grave Into Gardens",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/post_church_chill_playlist.webp",
           "duration": "7:14"
         },
         {
@@ -280,7 +280,7 @@ const playlists = [
           "title": "Promises",
           "artist": "Maverick City",
           "album": "Maverick City Vol 3",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/post_church_chill_playlist.webp",
           "duration": "2:31"
         },
         {
@@ -288,7 +288,7 @@ const playlists = [
           "title": "Little Million Miracles",
           "artist": "Maverick City",
           "album": "Move Your Heart",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/post_church_chill_playlist.webp",
           "duration": "4:02"
         }
       ]
@@ -297,15 +297,15 @@ const playlists = [
       "playlistID": 6,
       "playlist_name": "City In The Bulding",
       "playlist_creator": "DJ Stecy",
-      "playlist_art": "assets/img/playlist.png",
-      "likeCount": 0,
+      "playlist_art": "/86ea5bfe17fa8e06233cb4a581b436c7.jpg",
+      "likeCount": 14,
       "songs": [
         {
           "songID": 30,
           "title": "  Rest On Us",
           "artist": "Maverick City",
           "album": "Move Your Heart",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/86ea5bfe17fa8e06233cb4a581b436c7.jpg",
           "duration": "5:06"
         },
         {
@@ -313,7 +313,7 @@ const playlists = [
           "title": "I Thank God",
           "artist": "Maverick City",
           "album": "Move Your Heart",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/86ea5bfe17fa8e06233cb4a581b436c7.jpg",
           "duration": "4:39"
         },
         {
@@ -321,7 +321,7 @@ const playlists = [
           "title": "Firm Foundation",
           "artist": "Maverick City",
           "album": "The Maverick Way",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/86ea5bfe17fa8e06233cb4a581b436c7.jpg",
           "duration": "4:29"
         },
         {
@@ -329,7 +329,7 @@ const playlists = [
           "title": "God Really Loves Us",
           "artist": "Maverick City",
           "album": "Milk & Honey",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/86ea5bfe17fa8e06233cb4a581b436c7.jpg",
           "duration": "4:05"
         },
         {
@@ -337,7 +337,7 @@ const playlists = [
           "title": "In The Room",
           "artist": "Maverick City",
           "album": "The Maverick City Way",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/86ea5bfe17fa8e06233cb4a581b436c7.jpg",
           "duration": "4:04"
         }
       ]
@@ -346,15 +346,15 @@ const playlists = [
       "playlistID": 7,
       "playlist_name": "Classics",
       "playlist_creator": "DJ Stecy",
-      "playlist_art": "assets/img/playlist.png",
-      "likeCount": 0,
+      "playlist_art": "/_500W_500H.jpg",
+      "likeCount": 50,
       "songs": [
         {
           "songID": 35,
           "title": "Amazing Grace",
           "artist": "Aretha Franklin",
           "album": "The Definitive Collection",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/_500W_500H.jpg",
           "duration": "5:55"
         },
         {
@@ -362,7 +362,7 @@ const playlists = [
           "title": "Peace Be Still",
           "artist": "Vanessa Armstrong",
           "album": "Peace Be Still",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/_500W_500H.jpg",
           "duration": "6:30"
         },
         {
@@ -370,7 +370,7 @@ const playlists = [
           "title": "Jesus Is Love",
           "artist": "Commondores",
           "album": "Heros",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/_500W_500H.jpg",
           "duration": "8:02"
         },
         {
@@ -378,7 +378,7 @@ const playlists = [
           "title": "I Won't Complain",
           "artist": "Rev. Paul",
           "album": "I Won't Complain",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/_500W_500H.jpg",
           "duration": "5:55"
         },
         {
@@ -386,58 +386,10 @@ const playlists = [
           "title": "Safe In His Arms",
           "artist": "Darly Coley",
           "album": "He's Preparing Me",
-          "cover_art": "assets/img/playlist.png",
+          "cover_art": "/_500W_500H.jpg",
           "duration": "3:04"
         }
       ]
     },
-    {
-      "playlistID": 8,
-      "playlist_name": "Hymns",
-      "playlist_creator": "DJ Stecy",
-      "playlist_art": "assets/img/playlist.png",
-      "likeCount": 0,
-      "songs": [
-        {
-          "songID": 40,
-          "title": "How Great Thou Art",
-          "artist": "John Newton",
-          "album": "Traditional Hymns",
-          "cover_art": "assets/img/playlist.png",
-          "duration": "3:36"
-        },
-        {
-          "songID": 41,
-          "title": "It Is Well With My Soul",
-          "artist": "Philip Bliss",
-          "album": "Hymns Of Hope",
-          "cover_art": "assets/img/playlist.png",
-          "duration": "4:54"
-        },
-        {
-          "songID": 42,
-          "title": "Holy,Holy,Holy",
-          "artist": "Reginald Heber",
-          "album": "The Worship Hymnal",
-          "cover_art": "assets/img/playlist.png",
-          "duration": "4:26"
-        },
-        {
-          "songID": 43,
-          "title": "CTFOEB",
-          "artist": "John Wyeth",
-          "album": "The Baptist Hymnal",
-          "cover_art": "assets/img/playlist.png",
-          "duration": "4:17"
-        },
-        {
-          "songID": 44,
-          "title": "Blessed Assurance",
-          "artist": "Fanny Crosby",
-          "album": "",
-          "cover_art": "assets/img/playlist.png",
-          "duration": "8:26"
-        }
-      ]
-    }
+    
 ]

@@ -12,7 +12,7 @@
 <body>
     <header>
         <h1>Music Playlist Explorer</h1>
-        <button onclick="showRandomFeaturedPlaylist ()"> Featured Playlist </button>
+        <button class="buttonR" onclick="showRandomFeaturedPlaylist ()"> Featured Playlist </button>
     </header>
 
     <main> 
@@ -67,6 +67,29 @@
             <div id="artistLineup"></div> -->
         </div>
     </div>
+    <form class="form" id="addModal">
+        <h2>New Playlist</h2>
+        <label for="playlistname">Playlist Name</label>
+        <input type="text" id="playlistname" placeholder="playListName">
+        <br>
+        <label for="playauthor">Playlist Author</label>
+        <input type="text" id="playauthor" placeholder="playListAuthor">
+        <br>
+        <label for="playlist-image">Image URL</label>
+        <input type="text" id="playlist-image" placeholder="playListArt">
+        <br>
+        <label for="songname">Song Name</label>
+        <input type="text" id="songname" placeholder="songName">
+        <br>
+        <label for="songartist">Song Artist</label>
+        <input type="text" id="songartist" placeholder="songArtist">
+        <br>
+        <label for="songduration">Duration</label>
+        <input type="text" id="songduration" placeholder="songDuration">
+        <br>
+        <button type="submit">Add Playlist</button>
+        <button type="submit">Add Song</button>
+    </form>
 
 
 
@@ -78,3 +101,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+ 

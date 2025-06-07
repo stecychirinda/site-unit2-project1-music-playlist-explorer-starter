@@ -14,7 +14,7 @@ playlists.forEach(playlist => {
     const art = document.createElement("img");       
     art.src= playlist.playlist_art;
     art.alt= playlist.playlist_name;
-    art.width = 200;
+    art.width = 300;
     art.className ="playlist_art";
 
     const info = document.createElement("div");       
@@ -161,7 +161,7 @@ function openModal(playlist){
         //console.log(songList)
         my_songList.append(songList);
     });
-   
+
     //modal.style.display = "flex";
     //console.log( modal.style.display);
     modal_overlay.classList.remove("hidden");
@@ -219,4 +219,42 @@ function showRandomFeaturedPlaylist(){
     localStorage.setItem("featuredPlaylistIndex", randomIndex);
     window.location.href = "featured.html";
 }
+
+// Get the form element
+const form = document.getElementById('addModal');
+// Add an event listener to the form submission
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  // Get the input values
+  const newName = document.getElementById('playlistname').value;
+  const newAuthor = document.getElementById('playauthor').value;
+  const newImage = document.getElementById('playlist-image').value;
+  const newSongName = document.getElementById('songname').value;
+  const newSongArtist = document.getElementById('songartist').value;
+  const newSongDuration = document.getElementById('songduration').value;
+  // Create a new song object
+  const newSong = {
+    title: newSongName,
+    artist: newSongArtist,
+    duration: newSongDuration,
+  }; 
+  // Create a new playlist object
+  const newPlaylist = {
+    playlist_name: newName,
+    playlist_creator: newAuthor,
+    playlist_art: newImage,
+    likeCount: 0,
+    songs: [newSong],
+  };
+  // Add the new playlist to the playlists array
+  playlists.push(newPlaylist);
+  // Render the playlists again
+  renderPlaylists();
+  // Clear the form fields
+  form.reset();
+});
+
+
+
+
 
